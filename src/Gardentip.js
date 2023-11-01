@@ -344,8 +344,8 @@ function Gardentip() {
         </div>
         <br /> <br /> <br />
 
-        <Row className='all-form responsive-1100'>
-          <Col className='col-lg-5 infor1'>
+        <Row className='all-form responsive-1100-form'>
+          <Col className='col-lg-5 infor'>
             <div className='personal-info'>
               <h3 className='animation' data-aos='fade-up'>Contact Information</h3>
               <ul className='list-unstyle'>
