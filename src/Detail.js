@@ -10,8 +10,8 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 import Detaildata from './Detaildata.json'
 import { useParams } from 'react-router';
-
-
+import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
 
 const Accessories1 = () => {
 
@@ -21,7 +21,7 @@ const Accessories1 = () => {
         AOS.init({ duration: 2000 })
 
     }, [])
-
+    window.scrollTo({ top: 0, behavior: 'smooth' });
     return (
         <>
             <div className="nav">
@@ -101,7 +101,7 @@ const Accessories1 = () => {
                     </Container>
                 </Navbar>
             </div>
-            <Container >
+            <Container>
                 {Detaildata.map((item) => {
                     item.id = Number(item.id)
                     id = Number(id)
@@ -109,7 +109,7 @@ const Accessories1 = () => {
                         <div className='all-details' key={Math.floor(Math.random() * 10000)}>
                             <div className='top-content-details'>
                                 <div className='image-details'>
-                                    <img src={require(`${item.picture}`)} alt='name' style={{ width: '80%' }}></img>
+                                    <img src={require(`${item.picture}`)} alt='name' style={{ width: '90%' }}></img>
                                 </div>
                                 <div className='content-details'>
                                     <div className='name-details'>
@@ -127,6 +127,25 @@ const Accessories1 = () => {
                             </div>
                             <div>
                                 <p>{item.desc}</p>
+                            </div>
+                            <div className='content-text'>
+                                <h1>The 4 Best Gardening Books of 2023</h1>
+                                <p>These home gardening books can help you grow beautiful, bountiful crops</p>
+                            </div>
+                            <div className="product1 aninmation" data-aos='fade-up'>
+                                {Detaildata.map((item) => {
+                                    return item.id > 97 && item.id <= 102 ? <Card style={{ width: '17rem' }} key={Math.floor(Math.random() * 10000)}>
+                                        <Card.Img variant="top" src={require(`${item.picture}`)} />
+                                        <Card.Body>
+                                            <Card.Title>{item.name}</Card.Title>
+                                            <Card.Text>
+                                                {item.price}
+                                            </Card.Text>
+                                            <Button variant="primary" className='me-3'>Add To Cart</Button>
+                                            <Link to={`/Product/detail/${item.id}`}><Button variant="warning">See Detail</Button></Link>
+                                        </Card.Body>
+                                    </Card> : []
+                                })}
                             </div>
                         </div> : []
                 })}
@@ -148,6 +167,7 @@ const Accessories1 = () => {
                         <p>Mon - Fri 8.00 - 18.00</p>
                         <p>Friday 8.00 - 12.00</p>
                         <p>Sunday - CLOSED</p>
+
                     </div>
                 </div>
             </div>

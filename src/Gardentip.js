@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import "./style.css";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import Row from 'react-bootstrap/Row';
@@ -30,8 +31,9 @@ import icon1 from '../src/media/image/email-icon.png';
 import icon2 from '../src/media/image/phone-icon.png';
 import icon3 from '../src/media/image/location-icon.png';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
-
+import video1 from './media/audio/growplant.mp4';
+import video2 from './media/audio/growstrawberry.mp4';
+import video3 from './media/audio/growvegetable.mp4';
 
 
 function Gardentip() {
@@ -39,12 +41,6 @@ function Gardentip() {
     AOS.init({ duration: 2000 })
 
   }, [])
-
-  const [search, setsearch] = useState("")
-  const searchbox = (event) => {
-    setsearch(event.target.value)
-  }
-
 
   return (
     <>
@@ -116,10 +112,8 @@ function Gardentip() {
                   placeholder="Search"
                   className="me-2"
                   aria-label="Search"
-                  value={search}
-                  onChange={(event) => { searchbox(event) }}
                 />
-                <Link to={`/Product/search/${search}`}><Button variant="outline-success">Search</Button></Link>
+                <Button variant="outline-success">Search</Button>
               </Form>
             </Navbar.Collapse>
 
@@ -138,7 +132,7 @@ function Gardentip() {
           </Col>
         </Row>
         <Row>
-          <Row className='content2 responsive-1100'>
+          <Row className='content2'>
 
             < Col>
               <Card className='card ' >
@@ -148,7 +142,9 @@ function Gardentip() {
                   <Card.Text>
                     All seeds require a few basic things to grow: sunlight, a growing medium, and water...
                   </Card.Text>
-                  <Button variant="success">Read More...</Button>
+                  <Link to={`/Gardentips/Plantseed`}>
+                    <Button variant="success">Read More...</Button>
+                  </Link>
                 </Card.Body>
               </Card>
             </Col>
@@ -160,7 +156,9 @@ function Gardentip() {
                   <Card.Text>
                     Plants, both indoors and out, are lovely additions to any décor...
                   </Card.Text>
-                  <Button variant="success">Read More...</Button>
+                  <Link to={`/Gardentips/Takecareplant`}>
+                    <Button variant="success">Read More...</Button>
+                  </Link>
                 </Card.Body>
               </Card>
             </Col>
@@ -172,7 +170,9 @@ function Gardentip() {
                   <Card.Text>
                     Growing mushrooms at home is a task that any gardener ...
                   </Card.Text>
-                  <Button variant="success">Read More...</Button>
+                  <Link to={`/Gardentips/Growmushroom`}>
+                    <Button variant="success">Read More...</Button>
+                  </Link>
                 </Card.Body>
               </Card>
             </Col>
@@ -180,14 +180,34 @@ function Gardentip() {
         </Row>
 
         <Row>
-
+          <Col>
+            <div className='content-text animation' data-aos="fade-down">
+              <span>Our Working Process</span>
+              <h2>A few videos on gardening tips</h2>
+            </div>
+          </Col>
         </Row>
+        <br />
+        <div className='content2-video'>
+          <Col className='video2 '>
+            <video src={video1} width="100%" controls className='video'></video>
+            <p>14 Clever Plant Hacks That Will Really Grow on You! </p>
+          </Col>
+          <Col className='video2'>
+            <video src={video2} width="100%" controls className='video'></video>
+            <p>Top 6 Common Indoor Plants That Can Grow In Water</p>
+          </Col>
+          <Col className='video2'>
+            <video src={video3} width="100%" controls className='video'></video>
+            <p>How To Grow Fruit & Vegetables At Home 🌱No Garden Necessary!</p>
+          </Col>
+        </div>
         <Row>
           <Col className='text-content2 animation' data-aos="fade-down">
             <h2>Seed, Soil, and Sun: Discovering the Many Healthful Benefits of Gardening</h2>
           </Col>
         </Row>
-        <Row className='Blog responsive-1100' >
+        <Row className='Blog' >
           <Col xs={6} md={4}>
             <Image style={{ width: '100%' }} src={pic4} rounded />
           </Col>
@@ -197,7 +217,7 @@ function Gardentip() {
             <p>Whether you're looking for garden ideas to create an impressive balcony garden, want to introduce some garden furniture to your patio or love to be surrounded by greenery, you'll find lots of inspiration for your small outdoor space below.</p>
           </Col>
         </Row>
-        <Row className='Blog responsive-1100-revese'>
+        <Row className='Blog'>
           <Col className='blog-content'>
             <h2>Outdoor gardening can help your body fight disease</h2>
             <p>You're more like a plant than you may realize. Your body is capable of photosynthesis — the process where plants make their own food using sunlight.
@@ -208,7 +228,7 @@ function Gardentip() {
             <Image style={{ width: '100%' }} src={pic5} rounded />
           </Col>
         </Row>
-        <Row className='Blog responsive-1100' >
+        <Row className='Blog' >
           <Col xs={6} md={4}>
             <Image style={{ width: '100%' }} src={pic25} rounded />
           </Col>
@@ -221,7 +241,7 @@ function Gardentip() {
               When researchers tested the levels of the stress hormone cortisol in their bodies, they found that the gardening group had recovered from the stress better than the reading group. The gardening group also reported that their moods had returned to a positive state — while fewer of the readers had</p>
           </Col>
         </Row>
-        <Row className='Blog responsive-1100-revese'>
+        <Row className='Blog'>
           <Col className='blog-content'>
             <h2>Gardening can help protect your memory as you get older</h2>
             <p>Doctors have also known for some time that exercise improves cognitive functioning in the brain. There’s some debate about whether gardening on its own is enough to affect cognitive skills like memory. But new evidence shows that gardening activities may spur growth in your brain’s memory-related nerves.
@@ -344,7 +364,7 @@ function Gardentip() {
         </div>
         <br /> <br /> <br />
 
-        <Row className='all-form responsive-1100-form'>
+        <Row className='all-form'>
           <Col className='col-lg-5 infor'>
             <div className='personal-info'>
               <h3 className='animation' data-aos='fade-up'>Contact Information</h3>
@@ -424,6 +444,7 @@ function Gardentip() {
             <p>Mon - Fri 8.00 - 18.00</p>
             <p>Friday 8.00 - 12.00</p>
             <p>Sunday - CLOSED</p>
+
           </div>
         </div>
       </div>

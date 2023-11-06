@@ -66,14 +66,11 @@ const Home = () => {
 
                                 <Navbar.Brand href="/"><span className="logo">Garden World</span></Navbar.Brand>
                                 <Navbar.Toggle aria-controls="navbarScroll" />
-
-
                                 <Navbar.Collapse id="navbarScroll" float="right">
                                     <Nav
                                         className="me-auto my-2 my-lg-0 nav2"
                                         style={{ maxHeight: '500px' }}
                                         navbarScroll
-
                                     >
                                         <Nav.Link href="/">Home</Nav.Link>
                                         <Nav.Link href="/Gardentips">Gardening Tips</Nav.Link>

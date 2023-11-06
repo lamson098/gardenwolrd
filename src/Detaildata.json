@@ -144,6 +144,46 @@
         "desc": "Beginning gardeners are often intimidated by the process of how to start a garden and care for it successfully—after all, there's a lot involved. From amending your soil with high-quality organic matter to pruning shrubs, you'll find answers and advice for essentail gardening tasks."
     },
     {
+        "title": "Book Gardening",
+        "id": 97,
+        "name": "Raised-Bed Gardening for Beginners: Everything You Need to Know to Start and Sustain a Thriving Garden",
+        "price": "$18",
+        "picture": "./media/picture/book1.webp",
+        "desc": "Are you interested in creating a bountiful garden but worried that you don't have enough space? Raised-Bed Gardening for Beginners shows you how simple it can be to plan, build, and grow your own raised-bed garden in whatever space is available. Learn to build your bed, select the right plants, grow your own vegetables, and much more. This book makes it easy for even inexperienced gardeners to serve up freshly picked vegetables and herbs in no time."
+    },
+    {
+        "title": "Book Gardening",
+        "id": 98,
+        "name": "The Flower Gardener's Bible: A Complete Guide to Colorful Blooms All Season Long",
+        "price": "$15",
+        "picture": "./media/picture/book2.jpg",
+        "desc": "Create the flower garden of your dreams. This comprehensive guide includes expert advice on everything from choosing an appropriate growing site to maximizing the lifespan of your plants. Charming illustrations and photographs accompany helpful tips on how to improve soil, fight off pests, and make all your flowers bloom with radiant color. Whether you’re a beginning gardener or a seasoned florist, The Flower Gardener’s Bible is a useful resource that will help you keep your garden healthy and beautiful for years to come. "
+    },
+    {
+        "title": "Book Gardening",
+        "id": 99,
+        "name": "All New Square Foot Gardening, 3rd Edition, Fully Updated:MORE Projects",
+        "price": "$18",
+        "picture": "./media/picture/book3.jpg",
+        "desc": "Since Square Foot Gardening was first introduced by Mel Bartholomew in 1981, this revolutionary way to grow vegetables has helped millions of home gardeners enjoy their own organic, fresh produce in less space and with less work than traditional row gardens.New and experienced gardeners will love the charts, photos, illustrations, and how-to tips in All New Square Foot Gardening, 3rd Edition—including 42 veggie-specific planting, growing, and harvesting guides—that make growing your own food fun, easy, and productive."
+    },
+    {
+        "title": "Book Gardening",
+        "id": 100,
+        "name": "The Complete Gardener: A Practical, Imaginative Guide to Every Aspect of Gardening",
+        "price": "$24",
+        "picture": "./media/picture/book7.jpeg",
+        "desc": "This extensively revised new edition of his Complete Gardener, first published in 2003, brings you right up-to-date on how Monty gardens today - and his recommendations for you. The most comprehensive, practical, and highly illustrated book Monty has ever written, it covers what he believes are the most important aspects of gardening. Organic techniques have always been at the core of his practice, but this new edition picks up on another key principle: the need to provide habitats in your garden for local wildlife.Over half of the photographs in this new edition will be new, taken over a year in his Long Meadow garden, and he is going through the text with a fine-tooth comb to ensure everything he says reflects his latest approach."
+    },
+    {
+        "title": "Book Gardening",
+        "id": 101,
+        "name": "Rodale's Basic Organic Gardening: A Beginner's Guide to Starting a Healthy Garden",
+        "price": "$20",
+        "picture": "./media/picture/book6.jpg",
+        "desc": "In Rodale's Basic Organic Gardening by Deborah L. Martin, general garden-building skills  and specific techniques  are presented in growing-season order—from garden planning and planting to growing and harvesting. Many other need-to-know topics like soil, compost, seeds, pest control, and weeds are explained in simple language to ensure success, even on a small scale, on the first try. More than 100 common garden terms are defined, and Smart Starts sidebars offer doable projects to build confidence and enthusiasm for expanding a garden when a gardener is ready. A flower, vegetable, and herb finder highlights easycare plants with good track records. Plus, there are no-dig garden methods, simple garden layouts, and many more tips and hints."
+    },
+    {
         "title": "Miniature",
         "id": 73,
         "name": "3 Step Stump",
