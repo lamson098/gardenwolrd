@@ -261,7 +261,9 @@ const Home = () => {
                         </Card.Body>
 
                         <Card.Body>
-                            <Button><Link style={{ color: 'white', textDecoration: "none" }} href="#">Read More</Link></Button>
+                            <Link to={`/Gardentips/Plantseed`}>
+                                <Button variant="success">Read More...</Button>
+                            </Link>
                         </Card.Body>
                     </Card>
 
@@ -278,7 +280,9 @@ const Home = () => {
                         </Card.Body>
 
                         <Card.Body>
-                            <Button><Link style={{ color: 'white', textDecoration: "none" }} href="#">Read More</Link></Button>
+                            <Link to={`/Gardentips/Takecareplant`}>
+                                <Button variant="success">Read More...</Button>
+                            </Link>
                         </Card.Body>
                     </Card>
 
@@ -293,7 +297,9 @@ const Home = () => {
                         </Card.Body>
 
                         <Card.Body>
-                            <Button><Link style={{ color: 'white', textDecoration: "none" }} href="#">Read More</Link></Button>
+                            <Link to={`/Gardentips/Growmushroom`}>
+                                <Button variant="success">Read More...</Button>
+                            </Link>
                         </Card.Body>
                     </Card>
                 </div>
