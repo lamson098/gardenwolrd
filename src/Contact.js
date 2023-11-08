@@ -95,7 +95,7 @@ function Contact() {
       </div>
 
       <Container fluid='md'>
-        <Row className='all-form'>
+        <Row className='all-form1'>
           <Col className='col-lg-5 infor'>
             <div className='personal-info'>
               <h3 >Contact Information</h3>
@@ -163,6 +163,7 @@ function Contact() {
           </Col>
         </Row>
       </Container>
+      <br /><br />
       <div className="footer">
         <div className="footer-logo">
           <p className="greentext boldtext bigtext">Garden World</p>
