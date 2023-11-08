@@ -104,6 +104,7 @@ function Gardentip() {
                     </NavDropdown.Item>
                   </NavDropdown>
                 </NavDropdown>
+                <Nav.Link href="/Contact">Contact</Nav.Link>
 
               </Nav>
               <Form className="d-flex">

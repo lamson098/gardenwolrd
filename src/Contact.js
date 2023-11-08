@@ -74,7 +74,7 @@ function Contact() {
                       </NavDropdown.Item>
                     </NavDropdown>
                   </NavDropdown>
-                  <Nav.Link href="/ContactUs">Contact Us</Nav.Link>
+                  <Nav.Link href="/Contact">Contact</Nav.Link>
                 </Nav>
                 <Form className="d-flex">
                   <Form.Control
