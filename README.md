@@ -4,6 +4,7 @@
 GardenWorld Company is into manufacturing and selling on Gardening Stuff. They manufacture Gardening Stuff for various needs of customers.  
 
 
-<img width="855" alt="Screenshot 2023-11-11 at 18 31 13" src="https://github.com/lamson098/gardenwolrd/assets/145956509/f8202dd0-eec5-4b81-80d2-f0efd14846cf">
-
-
+<div style="display: flex;">
+  <img width="855" alt="Screenshot 2023-11-11 at 18 31 13" src="https://github.com/lamson098/gardenwolrd/assets/145956509/f8202dd0-eec5-4b81-80d2-f0efd14846cf">
+<img width="854" alt="Screenshot 2023-11-11 at 18 31 36" src="https://github.com/lamson098/gardenwolrd/assets/145956509/d37df34e-a4d4-4ed3-83d2-0d1dca90b858">
+</div>
