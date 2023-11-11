@@ -11,8 +11,14 @@ import pic3 from './media/Readmore/growmushroom3.jpg';
 import pic4 from './media/Readmore/growmushroom4.jpg';
 import pic5 from './media/Readmore/growmushroom5.jpg';
 import pic6 from './media/Readmore/growmushroom6.jpg';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 function Growmushroom() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    const [search, setsearch] = useState("")
+    const searchbox = (event) => {
+        setsearch(event.target.value)
+    }
     return (
         <div>
             <div className="head">
@@ -76,8 +82,9 @@ function Growmushroom() {
                                             </NavDropdown.Item>
                                         </NavDropdown>
                                     </NavDropdown>
-                                    <Nav.Link href="/Contact">Contact</Nav.Link>
-
+                                    <Nav.Link href="/Contact">Contact Us</Nav.Link>
+                                    <Nav.Link href="/Aboutus">About Us</Nav.Link>
+                                    <Nav.Link href="/Login">Join Us</Nav.Link>
                                 </Nav>
                                 <Form className="d-flex">
                                     <Form.Control
@@ -85,8 +92,10 @@ function Growmushroom() {
                                         placeholder="Search"
                                         className="me-2"
                                         aria-label="Search"
+                                        value={search}
+                                        onChange={(event) => { searchbox(event) }}
                                     />
-                                    <Button variant="outline-success">Search</Button>
+                                    <Link to={`/Product/search/${search}`}><Button variant="outline-success">Search</Button></Link>
                                 </Form>
                             </Navbar.Collapse>
 

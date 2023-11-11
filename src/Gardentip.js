@@ -34,14 +34,17 @@ import { Link } from 'react-router-dom';
 import video1 from './media/audio/growplant.mp4';
 import video2 from './media/audio/growstrawberry.mp4';
 import video3 from './media/audio/growvegetable.mp4';
-
+import { useState } from 'react';
 
 function Gardentip() {
   useEffect(() => {
     AOS.init({ duration: 2000 })
 
   }, [])
-
+  const [search, setsearch] = useState("")
+  const searchbox = (event) => {
+    setsearch(event.target.value)
+  }
   return (
     <>
       <div className="nav">
@@ -104,8 +107,9 @@ function Gardentip() {
                     </NavDropdown.Item>
                   </NavDropdown>
                 </NavDropdown>
-                <Nav.Link href="/Contact">Contact</Nav.Link>
-
+                <Nav.Link href="/Contact">Contact Us</Nav.Link>
+                <Nav.Link href="/Aboutus">About Us</Nav.Link>
+                <Nav.Link href="/Login">Join Us</Nav.Link>
               </Nav>
               <Form className="d-flex">
                 <Form.Control
@@ -113,8 +117,10 @@ function Gardentip() {
                   placeholder="Search"
                   className="me-2"
                   aria-label="Search"
+                  value={search}
+                  onChange={(event) => { searchbox(event) }}
                 />
-                <Button variant="outline-success">Search</Button>
+                <Link to={`/Product/search/${search}`}><Button variant="outline-success">Search</Button></Link>
               </Form>
             </Navbar.Collapse>
 
@@ -376,8 +382,9 @@ function Gardentip() {
                   </figure>
                   <div className='details'>
                     <h5>Office Location:</h5>
-                    <span>629 12th St, Modesto, CA 95354, United States</span>
+                    <span>391A Đ. Nam Kỳ Khởi Nghĩa, Phường 14, Q3, HCM </span>
                   </div>
+
                 </li>
                 <li className='animation' data-aos='fade-up'>
                   <figure className='figure'>
@@ -385,6 +392,7 @@ function Gardentip() {
                   </figure>
                   <div className='details'>
                     <h5>Email Us:</h5>
+                    <p>minhhieu114a@gmail.com</p>
                   </div>
                 </li>
                 <li className='animation' data-aos='fade-up'>
@@ -393,6 +401,7 @@ function Gardentip() {
                   </figure>
                   <div className='details'>
                     <h5>Call For Help:</h5>
+                    <p>+073-325-463</p>
                   </div>
                 </li>
               </ul>

@@ -64,7 +64,7 @@ const Accessories1 = () => {
                                         <NavDropdown.Item href="/Product/Pots">
                                             Pots
                                         </NavDropdown.Item>
-                                        <NavDropdown.Item href="/Product/Potplates">
+                                        <NavDropdown.Item href="/Product/Plates">
                                             Pot plates
                                         </NavDropdown.Item>
                                         <NavDropdown.Item href="/Product/Wallmounted">
@@ -76,7 +76,7 @@ const Accessories1 = () => {
                                         <NavDropdown.Item href="/Product/Pothangers">
                                             Pot hangers
                                         </NavDropdown.Item>
-                                        <NavDropdown.Item href="/Product/Railingbrackets">
+                                        <NavDropdown.Item href="/Product/Railing">
                                             Railing brackets
                                         </NavDropdown.Item>
                                     </NavDropdown>
@@ -93,7 +93,9 @@ const Accessories1 = () => {
                                         </NavDropdown.Item>
                                     </NavDropdown>
                                 </NavDropdown>
-                                <Nav.Link href="/Contact">Contact</Nav.Link>
+                                <Nav.Link href="/Contact">Contact Us</Nav.Link>
+                                <Nav.Link href="/Aboutus">About Us</Nav.Link>
+                                <Nav.Link href="/Login">Join Us</Nav.Link>
                             </Nav>
                             <Form className="d-flex">
                                 <Form.Control

@@ -1,0 +1,42 @@
+.about-us-content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+    gap: 30px;
+    margin: 50px 0px;
+
+}
+
+.main-contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: italic;
+
+}
+
+.contain {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.contain-rv {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+    .contain {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contain-rv {
+        display: flex;
+        flex-direction: column;
+    }
+}

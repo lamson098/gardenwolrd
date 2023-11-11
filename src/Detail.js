@@ -12,6 +12,7 @@ import Detaildata from './Detaildata.json'
 import { useParams } from 'react-router';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 const Accessories1 = () => {
 
@@ -22,6 +23,11 @@ const Accessories1 = () => {
 
     }, [])
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    const [search, setsearch] = useState("")
+    const searchbox = (event) => {
+        setsearch(event.target.value)
+    }
+
     return (
         <>
             <div className="nav">
@@ -55,7 +61,7 @@ const Accessories1 = () => {
                                         <NavDropdown.Item href="/Product/Pots">
                                             Pots
                                         </NavDropdown.Item>
-                                        <NavDropdown.Item href="/Product/Potplates">
+                                        <NavDropdown.Item href="/Product/Plates">
                                             Pot plates
                                         </NavDropdown.Item>
                                         <NavDropdown.Item href="/Product/Wallmounted">
@@ -67,7 +73,7 @@ const Accessories1 = () => {
                                         <NavDropdown.Item href="/Product/Pothangers">
                                             Pot hangers
                                         </NavDropdown.Item>
-                                        <NavDropdown.Item href="/Product/Railingbrackets">
+                                        <NavDropdown.Item href="/Product/Railing">
                                             Railing brackets
                                         </NavDropdown.Item>
                                     </NavDropdown>
@@ -84,8 +90,9 @@ const Accessories1 = () => {
                                         </NavDropdown.Item>
                                     </NavDropdown>
                                 </NavDropdown>
-                                <Nav.Link href="/Contact">Contact</Nav.Link>
-
+                                <Nav.Link href="/Contact">Contact Us</Nav.Link>
+                                <Nav.Link href="/Aboutus">About Us</Nav.Link>
+                                <Nav.Link href="/Login">Join Us</Nav.Link>
                             </Nav>
                             <Form className="d-flex">
                                 <Form.Control
@@ -93,8 +100,10 @@ const Accessories1 = () => {
                                     placeholder="Search"
                                     className="me-2"
                                     aria-label="Search"
+                                    value={search}
+                                    onChange={(event) => { searchbox(event) }}
                                 />
-                                <Button variant="outline-success">Search</Button>
+                                <Link to={`/Product/search/${search}`}><Button variant="outline-success">Search</Button></Link>
                             </Form>
                         </Navbar.Collapse>
 
@@ -130,6 +139,27 @@ const Accessories1 = () => {
                                 <p>{item.desc}</p>
                             </div>
                             <div className='content-text'>
+                                <h1>Some Related Products</h1>
+                            </div>
+                            <br />
+                            <div className="product1 aninmation" data-aos='fade-up'>
+                                {Detaildata.map((item) => {
+                                    return item.id > id && item.id <= id + 4 ? <Card style={{ width: '17rem' }} key={Math.floor(Math.random() * 10000)}>
+                                        <Card.Img variant="top" src={require(`${item.picture}`)} />
+                                        <Card.Body>
+                                            <Card.Title>{item.name}</Card.Title>
+                                            <Card.Text>
+                                                {item.price}
+                                            </Card.Text>
+                                            <Button variant="primary" className='me-3'>Add To Cart</Button>
+                                            <Link to={`/Product/detail/${item.id}`}><Button variant="warning">See Detail</Button></Link>
+                                        </Card.Body>
+                                    </Card> : []
+                                })}
+                            </div>
+
+
+                            <div className='content-text'>
                                 <h1>The 4 Best Gardening Books of 2023</h1>
                                 <p>These home gardening books can help you grow beautiful, bountiful crops</p>
                             </div>
@@ -149,6 +179,8 @@ const Accessories1 = () => {
                                 })}
                             </div>
                         </div> : []
+
+
                 })}
             </Container>
 

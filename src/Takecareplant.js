@@ -10,9 +10,14 @@ import pic2 from './media/Readmore/takecare2.webp';
 import pic3 from './media/Readmore/takecare3.webp';
 import pic4 from './media/Readmore/takecare4.webp';
 import pic5 from './media/Readmore/takecare5.webp';
-
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 function Takecareplant() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    const [search, setsearch] = useState("")
+    const searchbox = (event) => {
+        setsearch(event.target.value)
+    }
     return (
         <div>
             <div className="head">
@@ -76,7 +81,9 @@ function Takecareplant() {
                                             </NavDropdown.Item>
                                         </NavDropdown>
                                     </NavDropdown>
-                                    <Nav.Link href="/Contact">Contact</Nav.Link>
+                                    <Nav.Link href="/Contact">Contact Us</Nav.Link>
+                                    <Nav.Link href="/Aboutus">About Us</Nav.Link>
+                                    <Nav.Link href="/Login">Join Us</Nav.Link>
                                 </Nav>
                                 <Form className="d-flex">
                                     <Form.Control
@@ -84,8 +91,10 @@ function Takecareplant() {
                                         placeholder="Search"
                                         className="me-2"
                                         aria-label="Search"
+                                        value={search}
+                                        onChange={(event) => { searchbox(event) }}
                                     />
-                                    <Button variant="outline-success">Search</Button>
+                                    <Link to={`/Product/search/${search}`}><Button variant="outline-success">Search</Button></Link>
                                 </Form>
                             </Navbar.Collapse>
 

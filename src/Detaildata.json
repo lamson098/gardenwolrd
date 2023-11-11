@@ -121,7 +121,7 @@
         "id": 94,
         "name": "Polished Wood Grain Med",
         "price": "2.18$",
-        "picture": "./media/Decorative/PolishedWoodGrainMed.avif",
+        "picture": "./media/Decorative/PolishedWoodGrainMed.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Beginning gardeners are often intimidated by the process of how to start a garden and care for it successfully—after all, there's a lot involved. From amending your soil with high-quality organic matter to pruning shrubs, you'll find answers and advice for essentail gardening tasks."
     },
@@ -164,7 +164,7 @@
         "id": 99,
         "name": "All New Square Foot Gardening, 3rd Edition, Fully Updated:MORE Projects",
         "price": "$18",
-        "picture": "./media/picture/book3.jpg",
+        "picture": "./media/picture/book3.jpeg",
         "desc": "Since Square Foot Gardening was first introduced by Mel Bartholomew in 1981, this revolutionary way to grow vegetables has helped millions of home gardeners enjoy their own organic, fresh produce in less space and with less work than traditional row gardens.New and experienced gardeners will love the charts, photos, illustrations, and how-to tips in All New Square Foot Gardening, 3rd Edition—including 42 veggie-specific planting, growing, and harvesting guides—that make growing your own food fun, easy, and productive."
     },
     {
@@ -172,7 +172,7 @@
         "id": 100,
         "name": "The Complete Gardener: A Practical, Imaginative Guide to Every Aspect of Gardening",
         "price": "$24",
-        "picture": "./media/picture/book7.jpeg",
+        "picture": "./media/picture/book7.webp",
         "desc": "This extensively revised new edition of his Complete Gardener, first published in 2003, brings you right up-to-date on how Monty gardens today - and his recommendations for you. The most comprehensive, practical, and highly illustrated book Monty has ever written, it covers what he believes are the most important aspects of gardening. Organic techniques have always been at the core of his practice, but this new edition picks up on another key principle: the need to provide habitats in your garden for local wildlife.Over half of the photographs in this new edition will be new, taken over a year in his Long Meadow garden, and he is going through the text with a fine-tooth comb to ensure everything he says reflects his latest approach."
     },
     {
@@ -764,7 +764,7 @@
         "id": 41,
         "name": "Propagation Wall Mounted",
         "price": "1.60$",
-        "picture": "./media/wallmounted/PropagationStationWallMounted.avif",
+        "picture": "./media/wallmounted/PropagationStationWallMounted.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Beginning gardeners are often intimidated by the process of how to start a garden and care for it successfully—after all, there's a lot involved. From amending your soil with high-quality organic matter to pruning shrubs, you'll find answers and advice for essentail gardening tasks."
     },
@@ -773,7 +773,7 @@
         "id": 42,
         "name": "Creative Wall mounted",
         "price": "3.29$",
-        "picture": "./media/wallmounted/CreativeWallmounted.avif",
+        "picture": "./media/wallmounted/CreativeWallmounted.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Small garden ideas have lots of advantages the main one being they're wonderfully low-maintenance.Small gardens, city terraces, balconies and even unloved corners can all make enticing outdoor spaces with a little care and attention. Visual tricks, good lighting, interesting planting and comfortable seating will play to the strengths of the most awkward or compact of gardens.Whether you're looking for garden ideas to create an impressive balcony garden, want to introduce some garden furniture to your patio or love to be surrounded by greenery, you'll find lots of inspiration for your small outdoor space below."
     },
@@ -782,7 +782,7 @@
         "id": 43,
         "name": "Curved Wall Mounted",
         "price": "2.00$",
-        "picture": "./media/wallmounted/CurvedWallMounted.avif",
+        "picture": "./media/wallmounted/CurvedWallMounted.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Beginning gardeners are often intimidated by the process of how to start a garden and care for it successfully—after all, there's a lot involved. From amending your soil with high-quality organic matter to pruning shrubs, you'll find answers and advice for essentail gardening tasks."
     },
@@ -800,7 +800,7 @@
         "id": 45,
         "name": "Round Wall Mounted ",
         "price": "1.49$",
-        "picture": "./media/wallmounted/RoundWallMounted.avif",
+        "picture": "./media/wallmounted/RoundWallMounted.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Beginning gardeners are often intimidated by the process of how to start a garden and care for it successfully—after all, there's a lot involved. From amending your soil with high-quality organic matter to pruning shrubs, you'll find answers and advice for essentail gardening tasks."
     },
@@ -809,7 +809,7 @@
         "id": 46,
         "name": "Terrariums Wall Mounted",
         "price": "2.16$",
-        "picture": "./media/wallmounted/TerrariumsWallMounted.avif",
+        "picture": "./media/wallmounted/TerrariumsWallMounted.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Small garden ideas have lots of advantages the main one being they're wonderfully low-maintenance.Small gardens, city terraces, balconies and even unloved corners can all make enticing outdoor spaces with a little care and attention. Visual tricks, good lighting, interesting planting and comfortable seating will play to the strengths of the most awkward or compact of gardens.Whether you're looking for garden ideas to create an impressive balcony garden, want to introduce some garden furniture to your patio or love to be surrounded by greenery, you'll find lots of inspiration for your small outdoor space below."
     },
@@ -818,7 +818,7 @@
         "id": 47,
         "name": "Triangle Wall Mounted",
         "price": "2.99$",
-        "picture": "./media/wallmounted/TriangleWallMounted.avif",
+        "picture": "./media/wallmounted/TriangleWallMounted.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Beginning gardeners are often intimidated by the process of how to start a garden and care for it successfully—after all, there's a lot involved. From amending your soil with high-quality organic matter to pruning shrubs, you'll find answers and advice for essentail gardening tasks."
     },
@@ -827,7 +827,7 @@
         "id": 48,
         "name": "Wall Mounted Vase",
         "price": "1.99$",
-        "picture": "./media/wallmounted/WallMountedVase.avif",
+        "picture": "./media/wallmounted/WallMountedVase.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Small garden ideas have lots of advantages the main one being they're wonderfully low-maintenance.Small gardens, city terraces, balconies and even unloved corners can all make enticing outdoor spaces with a little care and attention. Visual tricks, good lighting, interesting planting and comfortable seating will play to the strengths of the most awkward or compact of gardens.Whether you're looking for garden ideas to create an impressive balcony garden, want to introduce some garden furniture to your patio or love to be surrounded by greenery, you'll find lots of inspiration for your small outdoor space below."
     },

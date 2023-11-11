@@ -13,6 +13,8 @@ import Takecareplant from './Takecareplant'
 import Plantseed from './Plantseed'
 import Growmushroom from './Growmushroom'
 import Contact from './Contact'
+import Login from './Login/Login';
+import AboutUs from './Aboutus/Aboutus';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +23,8 @@ root.render(
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Product' element={<Product />} />
+        <Route path='/Login' element={<Login />} />
+        <Route path='/Aboutus' element={<AboutUs />} />
         <Route path='/Gardentips' element={<Gardentip />} />
         <Route path='/Contact' element={<Contact />} />
         <Route path='/Gardentips/Takecareplant' element={<Takecareplant />} />

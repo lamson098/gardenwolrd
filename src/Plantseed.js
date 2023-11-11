@@ -12,8 +12,14 @@ import pic4 from './media/Readmore/plantseed4.webp';
 import pic5 from './media/Readmore/plantseed5.webp';
 import pic6 from './media/Readmore/plantseed6.webp';
 import pic7 from './media/Readmore/plantseed7.webp';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 function Plantseed() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    const [search, setsearch] = useState("")
+    const searchbox = (event) => {
+        setsearch(event.target.value)
+    }
     return (
         <div>
             <div className="head">
@@ -77,8 +83,9 @@ function Plantseed() {
                                             </NavDropdown.Item>
                                         </NavDropdown>
                                     </NavDropdown>
-
-                                    <Nav.Link href="/Contact">Contact</Nav.Link>
+                                    <Nav.Link href="/Contact">Contact Us</Nav.Link>
+                                    <Nav.Link href="/Aboutus">About Us</Nav.Link>
+                                    <Nav.Link href="/Login">Join Us</Nav.Link>
                                 </Nav>
                                 <Form className="d-flex">
                                     <Form.Control
@@ -86,8 +93,10 @@ function Plantseed() {
                                         placeholder="Search"
                                         className="me-2"
                                         aria-label="Search"
+                                        value={search}
+                                        onChange={(event) => { searchbox(event) }}
                                     />
-                                    <Button variant="outline-success">Search</Button>
+                                    <Link to={`/Product/search/${search}`}><Button variant="outline-success">Search</Button></Link>
                                 </Form>
                             </Navbar.Collapse>
 
