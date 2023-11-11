@@ -7,11 +7,10 @@
 </b>
 <br>
   <br>
-<div style="display: flex;">
-  <img width="500" alt="Screenshot 2023-11-11 at 18 31 13" src="https://github.com/lamson098/gardenwolrd/assets/145956509/f8202dd0-eec5-4b81-80d2-f0efd14846cf">
-<img width="500" alt="Screenshot 2023-11-11 at 18 31 36" src="https://github.com/lamson098/gardenwolrd/assets/145956509/d37df34e-a4d4-4ed3-83d2-0d1dca90b858">
-</div>
-
+<h2>Group 3</h2>
+<p>Nguyen Minh Hieu</p>
+<p>Phan Sy Nguyen</p>
+<p>Nguyen Lam Son</p>
 
 <a href="https://youtu.be/ezvZJYOaDeQ" target="_blank">Video</a>
 <a href="https://keen-smakager-bc4acb.netlify.app" target="_blank">Live Demo</a>
