@@ -474,18 +474,18 @@
     {
         "title": "Plates",
         "id": 33,
-        "name": " Grower Pots (Black)",
+        "name": " Grower Pots (Wood)",
         "price": "1.49$",
-        "picture": "./media/plates/GrowerPots.jpeg",
+        "picture": "./media/plates/GrowerPots.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Vermicomposting is another name for composting using worms that eat your food scraps and then excrete nitrogen-rich castings. Those castings make excellent fertilizer that you can add to potted plants, a container garden, or an in-ground garden.Vermicomposting is a great alternative for people living in apartments, tiny houses, or any other space where you don't have access to a backyard to make a regular composting pile. You can keep a vermicomposting system going under your sink or in a cup"
     },
     {
         "title": "Plates",
         "id": 34,
-        "name": "Ceramic Pot (White)",
+        "name": "Ceramic Pot (Black)",
         "price": "2.18$",
-        "picture": "./media/plates/CeramicPot.webp",
+        "picture": "./media/plates/CeramicPot.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Beginning gardeners are often intimidated by the process of how to start a garden and care for it successfully—after all, there's a lot involved. From amending your soil with high-quality organic matter to pruning shrubs, you'll find answers and advice for essentail gardening tasks."
     },
@@ -494,25 +494,25 @@
         "id": 35,
         "name": "Grower Pots (Dark Pink)",
         "price": "2.18$",
-        "picture": "./media/plates/DarkPink.jpeg",
+        "picture": "./media/plates/DarkPink.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Vermicomposting is another name for composting using worms that eat your food scraps and then excrete nitrogen-rich castings. Those castings make excellent fertilizer that you can add to potted plants, a container garden, or an in-ground garden.Vermicomposting is a great alternative for people living in apartments, tiny houses, or any other space where you don't have access to a backyard to make a regular composting pile. You can keep a vermicomposting system going under your sink or in a cup"
     },
     {
         "title": "Plates",
         "id": 36,
-        "name": "Grower Pots (Green) ",
+        "name": "Grower Pots (Gray) ",
         "price": "2.18$",
-        "picture": "./media/plates/Green.jpeg",
+        "picture": "./media/plates/Green.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Beginning gardeners are often intimidated by the process of how to start a garden and care for it successfully—after all, there's a lot involved. From amending your soil with high-quality organic matter to pruning shrubs, you'll find answers and advice for essentail gardening tasks."
     },
     {
         "title": "Plates",
         "id": 37,
-        "name": "Grower Pots (Lime Yellow)",
+        "name": "Grower Pots (Plastic)",
         "price": "2.18$",
-        "picture": "./media/plates/LimeYellow.jpeg",
+        "picture": "./media/plates/LimeYellow.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Small garden ideas have lots of advantages the main one being they're wonderfully low-maintenance.Small gardens, city terraces, balconies and even unloved corners can all make enticing outdoor spaces with a little care and attention. Visual tricks, good lighting, interesting planting and comfortable seating will play to the strengths of the most awkward or compact of gardens.Whether you're looking for garden ideas to create an impressive balcony garden, want to introduce some garden furniture to your patio or love to be surrounded by greenery, you'll find lots of inspiration for your small outdoor space below."
     },
@@ -521,7 +521,7 @@
         "id": 38,
         "name": "Grower Pots (Orange)",
         "price": "2.18$",
-        "picture": "./media/plates/Orange.jpeg",
+        "picture": "./media/plates/Orange.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Beginning gardeners are often intimidated by the process of how to start a garden and care for it successfully—after all, there's a lot involved. From amending your soil with high-quality organic matter to pruning shrubs, you'll find answers and advice for essentail gardening tasks."
     },
@@ -845,7 +845,7 @@
         "id": 18,
         "name": "Sweet cabbage",
         "price": "0.18$",
-        "picture": "./media/picture/21.webp",
+        "picture": "./media/picture/21.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Small garden ideas have lots of advantages the main one being they're wonderfully low-maintenance.Small gardens, city terraces, balconies and even unloved corners can all make enticing outdoor spaces with a little care and attention. Visual tricks, good lighting, interesting planting and comfortable seating will play to the strengths of the most awkward or compact of gardens.Whether you're looking for garden ideas to create an impressive balcony garden, want to introduce some garden furniture to your patio or love to be surrounded by greenery, you'll find lots of inspiration for your small outdoor space below."
     },
@@ -854,7 +854,7 @@
         "id": 19,
         "name": "Spinach",
         "price": "0.08$",
-        "picture": "./media/picture/22.webp",
+        "picture": "./media/picture/22.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Beginning gardeners are often intimidated by the process of how to start a garden and care for it successfully—after all, there's a lot involved. From amending your soil with high-quality organic matter to pruning shrubs, you'll find answers and advice for essentail gardening tasks."
     },
@@ -863,7 +863,7 @@
         "id": 20,
         "name": "Swam spinach",
         "price": "0.68$",
-        "picture": "./media/picture/23.webp",
+        "picture": "./media/picture/23.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Small garden ideas have lots of advantages the main one being they're wonderfully low-maintenance.Small gardens, city terraces, balconies and even unloved corners can all make enticing outdoor spaces with a little care and attention. Visual tricks, good lighting, interesting planting and comfortable seating will play to the strengths of the most awkward or compact of gardens.Whether you're looking for garden ideas to create an impressive balcony garden, want to introduce some garden furniture to your patio or love to be surrounded by greenery, you'll find lots of inspiration for your small outdoor space below."
     },
@@ -872,7 +872,7 @@
         "id": 21,
         "name": "Crown daisy",
         "price": "0.39$",
-        "picture": "./media/picture/24.webp",
+        "picture": "./media/picture/24.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Beginning gardeners are often intimidated by the process of how to start a garden and care for it successfully—after all, there's a lot involved. From amending your soil with high-quality organic matter to pruning shrubs, you'll find answers and advice for essentail gardening tasks."
     },
@@ -881,7 +881,7 @@
         "id": 22,
         "name": "Bina",
         "price": "0.15$",
-        "picture": "./media/picture/25.webp",
+        "picture": "./media/picture/25.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Small garden ideas have lots of advantages the main one being they're wonderfully low-maintenance.Small gardens, city terraces, balconies and even unloved corners can all make enticing outdoor spaces with a little care and attention. Visual tricks, good lighting, interesting planting and comfortable seating will play to the strengths of the most awkward or compact of gardens.Whether you're looking for garden ideas to create an impressive balcony garden, want to introduce some garden furniture to your patio or love to be surrounded by greenery, you'll find lots of inspiration for your small outdoor space below."
     },
@@ -890,7 +890,7 @@
         "id": 23,
         "name": "Gotu Kola",
         "price": "0.19$",
-        "picture": "./media/picture/26.webp",
+        "picture": "./media/picture/26.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Beginning gardeners are often intimidated by the process of how to start a garden and care for it successfully—after all, there's a lot involved. From amending your soil with high-quality organic matter to pruning shrubs, you'll find answers and advice for essentail gardening tasks."
     },
@@ -899,7 +899,7 @@
         "id": 24,
         "name": "Winter Melon",
         "price": "0.28$",
-        "picture": "./media/picture/27.webp",
+        "picture": "./media/picture/27.jpg",
         "code": "SC-CUST-AL30",
         "desc": "Small garden ideas have lots of advantages the main one being they're wonderfully low-maintenance.Small gardens, city terraces, balconies and even unloved corners can all make enticing outdoor spaces with a little care and attention. Visual tricks, good lighting, interesting planting and comfortable seating will play to the strengths of the most awkward or compact of gardens.Whether you're looking for garden ideas to create an impressive balcony garden, want to introduce some garden furniture to your patio or love to be surrounded by greenery, you'll find lots of inspiration for your small outdoor space below."
     }

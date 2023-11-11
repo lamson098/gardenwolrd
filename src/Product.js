@@ -10,7 +10,7 @@ import AOS from "aos";
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 import Detaildata from './Detaildata.json'
-
+import pic1 from './media/picture/photo15.jpg'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -109,7 +109,20 @@ const Product = () => {
                     </Container>
                 </Navbar>
             </div>
+            <div className="banner">
+                <div className='contact'>
+                    <div className="product-all-banner">
+                        <img className='product-banner-img' src={pic1} alt="banner" />
+                    </div>
 
+                </div>
+                <div className="product-banner-cover">
+                    <div className='product-banner'>
+                        <h1>Best Garden Products</h1>
+                        <p>In the market for a new vacuum, set of sheets, or a gift for dad? <br /> We've got the best product choices to suit all your needs right here.</p>
+                    </div>
+                </div>
+            </div>
             <div className="product-main">
 
                 <div className="product">

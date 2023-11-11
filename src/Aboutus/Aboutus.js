@@ -183,9 +183,6 @@ function AboutUs() {
               <img src={image4} alt='plant' width="400px" className='image4'></img>
             </div>
           </div>
-
-
-
         </div>
       </div>
 
