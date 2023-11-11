@@ -27,9 +27,7 @@ import pic23 from '../src/media/image/10.webp';
 import pic24 from '../src/media/image/sunlight.webp';
 import pic25 from '../src/media/image/photo3.jpg';
 import pic26 from '../src/media/image/10.webp';
-import icon1 from '../src/media/image/email-icon.png';
-import icon2 from '../src/media/image/phone-icon.png';
-import icon3 from '../src/media/image/location-icon.png';
+
 import { Link } from 'react-router-dom';
 import video1 from './media/audio/growplant.mp4';
 import video2 from './media/audio/growstrawberry.mp4';
@@ -371,71 +369,7 @@ function Gardentip() {
         </div>
         <br /> <br /> <br />
 
-        <Row className='all-form'>
-          <Col className='col-lg-5 infor'>
-            <div className='personal-info'>
-              <h3 className='animation' data-aos='fade-up'>Contact Information</h3>
-              <ul className='list-unstyle'>
-                <li className='animation' data-aos='fade-up'>
-                  <figure className='figure'>
-                    <img src={icon3} alt='locationicon'></img>
-                  </figure>
-                  <div className='details'>
-                    <h5>Office Location:</h5>
-                    <span>391A Đ. Nam Kỳ Khởi Nghĩa, Phường 14, Q3, HCM </span>
-                  </div>
 
-                </li>
-                <li className='animation' data-aos='fade-up'>
-                  <figure className='figure'>
-                    <img src={icon2} alt=''></img>
-                  </figure>
-                  <div className='details'>
-                    <h5>Email Us:</h5>
-                    <p>minhhieu114a@gmail.com</p>
-                  </div>
-                </li>
-                <li className='animation' data-aos='fade-up'>
-                  <figure className='figure'>
-                    <img src={icon1} alt=''></img>
-                  </figure>
-                  <div className='details'>
-                    <h5>Call For Help:</h5>
-                    <p>+073-325-463</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </Col>
-          <Col className='col-lg-7 form'>
-            <div className='form-box'>
-              <h2 className='animation' data-aos='fade-up'>Send us a Message</h2>
-              <form className='contact-form'>
-                <ul className='list-unstyle'>
-                  <li className='animation' data-aos='fade-up'>
-                    <input type='text' placeholder='Your name' name='fname' id='fname'></input>
-                  </li>
-                  <li className='animation' data-aos='fade-up'>
-                    <input type='email' placeholder='Your email' name='fname' id='fname'></input>
-                  </li>
-                  <li className='animation' data-aos='fade-up'>
-                    <input type='tel' placeholder='Your phone' name='fname' id='fname'></input>
-                  </li>
-                  <li className='animation' data-aos='fade-up'>
-                    <input type='text' placeholder='Subject' name='fname' id='fname'></input>
-                  </li>
-                  <li className='animation' data-aos='fade-up'>
-                    <textarea placeholder='Message'></textarea>
-                  </li>
-                </ul>
-                <button type='submit' className='btn-submit animation' id='submit'>Submit Now</button>
-              </form>
-
-
-            </div>
-
-          </Col>
-        </Row>
       </Container>
       <br /> <br /> <br />
       <div className="footer">
