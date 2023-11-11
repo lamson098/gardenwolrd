@@ -13,8 +13,8 @@
 </div>
 
 
-<a href="https://youtu.be/ezvZJYOaDeQ">Video</a>
-<a href="https://keen-smakager-bc4acb.netlify.app">Live Demo</a>
+<a href="https://youtu.be/ezvZJYOaDeQ" target="blank">Video</a>
+<a href="https://keen-smakager-bc4acb.netlify.app" target="blank">Live Demo</a>
 
 
 
