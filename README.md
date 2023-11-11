@@ -2,7 +2,7 @@
 
 
 <b style=": flex;">
-  GardenWorld Company is into manufacturing and selling on Gardening Stuff. They manufacture Gardening Stuff for various needs of customers.  
+  GardenWorld Company is into manufacturing and selling on Gardening Stuff.<br> They manufacture Gardening Stuff for various needs of customers.  
 </b>
 
 <div style="text-align: center;">
