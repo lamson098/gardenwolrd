@@ -12,7 +12,7 @@
 <p>Phan Sy Nguyen</p>
 <p>Nguyen Lam Son</p>
 
-<a href="https://youtu.be/ezvZJYOaDeQ" target="_blank">Video</a>
+<a href="https://youtu.be/9g8y5SpUe4k" target="_blank">Video</a>
 <a href="https://keen-smakager-bc4acb.netlify.app" target="_blank">Live Demo</a>
 
 
