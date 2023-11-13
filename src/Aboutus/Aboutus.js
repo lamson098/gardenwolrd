@@ -142,18 +142,16 @@ function AboutUs() {
 
             </div>
             <div>
-              <img src={image2} alt='plant' width="400px" className='image4'></img>
+              <img src={image2} alt='plant' width="400px" ></img>
             </div>
           </div>
-
-
           <div className="contain-rv">
             <div >
               <h3><b >Values and differences</b></h3>
               <p >We deliver 6000+ garden products across India including Agra, Ahmedabad, Ajmer, Aligarh, Ambattur, Amravati, Amritsar, Asansol, Aurangabad, Bangalore, Bareilly, Belgaum, Bhavnagar, Bhilai Nagar, Bhiwandi, Bhopal, Bhubaneswar, Bikaner, Chandigarh, Chennai, Coimbatore, Firozabad, Cuttack, Dehradun, Delhi, Dhanbad, Durgapur, Faridabad, Gaya, Ghaziabad, Gorakhpur, Gulbarga, Guntur, Gurgaon, Guwahati, Gwalior, Haora, Hubli and Dharwad, Hyderabad, Indore, Jabalpur, Jaipur, Jalandhar, Jalgaon, Jammu, Jamnagar, Jamshedpur, Jhansi, Jodhpur, Kalyan & Dombivali, Kanpur, Karnataka, Kochi, Kolapur, Kolkata, Kota, Loni, Lucknow, Ludhiana, Madurai, Maheshtala, Malegoan, Mangalore, Meerut, Mira and Bhayander, Moradabad, Mumbai, Nagpur, Nanded, Nashik, Navi Mumbai, Nellore, Noida, Patna, Pimpri & Chinchwad, Prayagraj, Pune, Raipur, Rajkot, Ranchi, Saharanpur, Salem, Sangli Miraj Kupwad, Siliguri, Solapur, Srinagar, Surat, Thane, Thiruvananthapuram, Tiruchirappalli, Tirunelveli, Trivandrum, Udaipur, Ujjain, Ulhasnagar, Vadodara, Varanasi, Vasai Virar, Vijayawada, Visakhapatnam, Warangal All Over India</p>
             </div>
             <div >
-              <img src={image3} alt='plant' width="400px" className='image4'></img>
+              <img src={image3} alt='plant' width="400px"></img>
             </div>
           </div>
 
@@ -167,7 +165,7 @@ function AboutUs() {
               </div>
             </div>
             <div >
-              <img src={image1} alt='plant' width="400px" className='image4'></img>
+              <img src={image1} alt='plant' width="400px" ></img>
             </div>
           </div>
 
@@ -178,7 +176,7 @@ function AboutUs() {
               <p >Plan to arrive at New York’s LaGuardia Airport by noon.  Once you arrive, meet your full-time tour manager, board your private motor coach and your Hudson Valley adventure begins.Your first stop is at the Cloisters, one certain to make life-long memories. This museum is a branch of the Metropolitan Museum of Art and was built in the 1930’s resembling architectural elements of several European medieval abbeys.  It is used to exhibit art and architecture from Medieval Europe. The Cloisters was landscaped with gardens planted according to horticultural information obtained from Medieval manuscripts and artifacts and the structure includes multiple Medieval-style cloistered herb gardens. </p>
             </div>
             <div >
-              <img src={image4} alt='plant' width="400px" className='image4'></img>
+              <img src={image4} alt='plant' width="400px" ></img>
             </div>
           </div>
         </div>
