@@ -15,6 +15,7 @@ import Growmushroom from './Growmushroom'
 import Contact from './Contact'
 import Login from './Login/Login';
 import AboutUs from './Aboutus/Aboutus';
+import Basket from './Basket/Basket';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -33,6 +34,7 @@ root.render(
         <Route path='/Product/detail/:id' element={<Detail />} />
         <Route path='/Product/:name' element={<Sortdata />} />
         <Route path='/Product/search/:name' element={<Search />} />
+        <Route path='/Basket' element={<Basket />} />
       </Routes>
     </React.StrictMode>
   </BrowserRouter>
