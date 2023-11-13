@@ -180,9 +180,29 @@ const Accessories1 = () => {
                                 <p>{item.desc}</p>
                             </div>
                             <div className='content-text'>
+                                <h1>The Best Relevant Product</h1>
+                            </div>
+
+                            <div className="product1 aninmation" data-aos='fade-up'>
+                                {Detaildata.map((item) => {
+                                    return item.id > id && item.id <= id + 4 ? <Card style={{ width: '17rem' }} key={Math.floor(Math.random() * 10000)}>
+                                        <Card.Img variant="top" src={require(`${item.picture}`)} />
+                                        <Card.Body>
+                                            <Card.Title>{item.name}</Card.Title>
+                                            <Card.Text>
+                                                {item.price}
+                                            </Card.Text>
+                                            <Button variant="primary" className='me-3' onClick={() => addTocart(item.id)}>Add To Cart</Button>
+                                            <Link to={`/Product/detail/${item.id}`}><Button variant="warning">See Detail</Button></Link>
+                                        </Card.Body>
+                                    </Card> : []
+                                })}
+                            </div>
+                            <div className='content-text'>
                                 <h1>The 4 Best Gardening Books of 2023</h1>
                                 <p>These home gardening books can help you grow beautiful, bountiful crops</p>
                             </div>
+
                             <div className="product1 aninmation" data-aos='fade-up'>
                                 {Detaildata.map((item) => {
                                     return item.id > 97 && item.id <= 102 ? <Card style={{ width: '17rem' }} key={Math.floor(Math.random() * 10000)}>
@@ -198,6 +218,7 @@ const Accessories1 = () => {
                                     </Card> : []
                                 })}
                             </div>
+
                         </div> : []
                 })}
             </Container>

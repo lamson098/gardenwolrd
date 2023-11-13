@@ -16,9 +16,7 @@ const Basket = () => {
 
     let productIncard = localStorage.getItem("products") ? JSON.parse(localStorage.getItem("products")) : []
 
-    const saveToLocalStorage = () => {
-        localStorage.setItem("products", JSON.stringify(productIncard));
-    }
+
 
     const plusQuantity = (index) => {
         productIncard[index] = {
@@ -34,8 +32,8 @@ const Basket = () => {
                 ...productIncard[index],
                 quantity: --productIncard[index].quantity
             }
-            renderCart();
             saveToLocalStorage();
+            renderCart();
         } else {
             alert("quantity min is 1!")
         }
@@ -65,7 +63,9 @@ const Basket = () => {
 
         )
     }
-
+    const saveToLocalStorage = () => {
+        localStorage.setItem("products", JSON.stringify(productIncard));
+    }
 
     const [search, setsearch] = useState("")
     const searchbox = (event) => {
