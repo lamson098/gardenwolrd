@@ -7,7 +7,8 @@
 <div  align="center">
 
 
-<img  src="./src/media/picture/Screenshot 2023-11-13 174518.png"  alt="Logo"  width="1000px"  height="auto">
+<img width="1439" alt="Screenshot 2023-11-14 at 08 46 21" src="https://github.com/lamson098/gardenwolrd/assets/145956509/a2fdfb3e-2487-4aac-bd69-9968b3dae199">
+
 
 </a>
 
