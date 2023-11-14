@@ -16,8 +16,8 @@
 
 <h3  align="center">Garden World</h3>
   
-  <a  href="https://github.com/MinhHieu0412/gardenworld"><strong>Explore the source »</strong></a>
-  <a  href="https://github.com/MinhHieu0412/gardenworld/tree/master/document" target="_blank"><strong>Explore the documents »</strong></a>
+  <a  href="https://github.com/lamson098/gardenwolrd"><strong>Explore the source »</strong></a>
+  <a  href="https://github.com/lamson098/gardenwolrd/tree/main/Document" target="_blank"><strong>Explore the documents »</strong></a>
 
   <br  /><a  href="https://keen-smakager-bc4acb.netlify.app/" target="_blank">View Demo</a>  . <a  href="#" target="_blank">Video</a>
 
